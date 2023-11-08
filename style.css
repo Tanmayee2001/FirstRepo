@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+  background: black;
+}
+.maincontainer{
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  
+  
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(178, 178, 178);
+    width: 100%;
+    height: 30vh;
+    margin-top: 20px ;
+    position: relative;;
+    
+
+
+}
+
+.h1{
+  position: absolute;
+  bottom:35%;
+  left: 12%;
+}
+
+.circle {
+
+    width: 130px;
+    height: 130px;
+    background-color: rgb(174, 166, 150);
+    border-radius: 50%;
+    background: url("image.jpg");
+    background-position: center;
+    background-size: 140px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15%;
+    bottom: -15%;
+   
+}
+
+  .circle .tanu {
+    height: 115px;
+    width: 115px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 39px;
+    margin-top: 39px;
+  } 
+  
+  .container {
+    display: flex;
+  
+    background-color: #dad7e3;
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .left-side {
+    display: flex;
+    
+    flex-direction: column;
+    width: 40%;
+   
+    border-right: 1px solid black;
+    margin-left: 45px;
+    margin-top: 80px;
+  }
+
+  .left-side div {
+
+    display: flex;
+  }
+
+  h3 {
+    text-decoration: underline;
+    border-top: 1px solid black;
+  }
+
+  .left-side ul {
+     display: flex;
+     flex-direction: column;
+    margin-top: 20px;
+    gap:10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    
+    
+  }
+  h4 {
+    text-decoration: underline;
+  }
+ .skills{
+    margin:10px 0;
+ } 
+ .tech{
+    border-top: none;
+ }
+ .right-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 45px;
+    margin-top: 80px;
+    
+ }
+p {
+  margin-top: 10px;
+}
+ .profile {
+   border-top : none ;
+ }
+
+ h4 {
+  margin-left: 25px;
+ }
+ p{
+  font-size: 18px;
+  margin-left: 25px;
+ }
+ .overflow-hidden {
+  overflow: hidden;
+ }
+ 
+ .drop-in {
+  animation: drop-in 1s ease 200ms backwards;
+ }
+ 
+ .drop-in-2 {
+  animation: drop-in 1200ms ease 500ms backwards;
+ }
+ 
+
+ @keyframes drop-in {
+  from {
+   opacity: 0;
+   transform: translatey(-100px);
+   filter: blur(70px);
+   
+  }
+  to {
+   opacity: 1;
+   transform: translate(0px);
+  }
+ }
